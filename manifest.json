@@ -1,0 +1,33 @@
+{
+	"name": "Random project",
+	"manifest_version": 2,
+	"description": "Bukannya ngerjain tugas malah bikin ginian",
+	"version": "1.0",
+	// "page_action": {
+	// 	"default_icon": "google.png",
+	// 	"default_popup": "popup.html",
+	// 	"default_title": "My custom google page!"
+	// 	},
+
+		"browser_action": {
+			"default_icon": "img/google.png",
+			"default_popup": "popup.html"
+			},
+
+			"permissions":["storage"],
+
+		// "background": {
+		// 	"scripts": ["background.js"],
+		// 	"persistent": false
+		// 	},
+		// 	"omnibox": { "keyword" : "yeah" },
+
+		"content_scripts":[{
+			"matches":["https://stackoverflow.com/*"],
+
+			"js":["js/jquery-3.2.1.js","js/background.js"],
+			"css":["css/background.css"]
+
+			}]
+
+		}

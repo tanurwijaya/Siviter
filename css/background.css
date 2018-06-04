@@ -1,0 +1,15 @@
+.new-rect {
+    background: black;
+    width: 20%;
+    height: 30px;
+}
+
+.aClassName{
+	padding: 16px;
+	color: white;
+	text-align: center;
+	background: black;
+	position:fixed;
+     bottom:0;
+     right:0;
+}

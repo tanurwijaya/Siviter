@@ -1,0 +1,10 @@
+.aClassName{
+	opacity: 0.4;
+	padding: 16px;
+	color: white;
+	text-align: center;
+	background: black;
+	position:fixed;
+	bottom:0;
+	right:0;
+}
